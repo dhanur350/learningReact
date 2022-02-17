@@ -20,3 +20,5 @@ npm install #Alias is ```npm i```
 #Start the dev server of vite:
 npm run dev
 ````
+
+## Changes will be continued
