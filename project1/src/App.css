@@ -7,6 +7,11 @@
   pointer-events: none;
 }
 
+.chnge{
+  color: blue;
+  font-weight: 500;
+}
+/*
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -39,4 +44,4 @@
 
 button {
   font-size: calc(10px + 2vmin);
-}
+}*/
