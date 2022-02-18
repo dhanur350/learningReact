@@ -22,3 +22,5 @@ npm run dev
 ````
 
 ## Changes will be continued
+
+## To restore file from Github type command `git checkout 'filepath'`
