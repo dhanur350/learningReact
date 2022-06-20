@@ -7,10 +7,19 @@
   pointer-events: none;
 }
 
-.chnge{
+.chnge {
   color: blue;
   font-weight: 500;
 }
+
+.patientCard {
+  border-radius: 1rem;
+  background: aqua;
+  margin: 5px;
+}
+
+.patientItem {}
+
 /*
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {

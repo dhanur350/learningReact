@@ -3,6 +3,7 @@ import logo from "./logo.svg";
 import "./App.css";
 import * as Day1 from "./components/Day1.jsx";
 import * as Day2 from "./components/Day2.jsx";
+import * as Day3 from "./components/Day3.jsx";
 
 //console.log(Day1);
 
@@ -15,10 +16,11 @@ function App() {
       <Day1.Component3 />
       <Day1.Component4 />
       <Day1.Component3 /> */}
-      <Day2.Component1 />
+      {/* <Day2.Component1 />
       <Day2.Component2 />
       <Day2.Component3 />
-      <Day2.Component4 />
+      <Day2.Component4 /> */}
+      <Day3.Component1 />
     </div>
   );
 }
