@@ -4,7 +4,7 @@ import './article.css'
 function article() {
   return (
     <div>
-      
+      Article
     </div>
   )
 }
