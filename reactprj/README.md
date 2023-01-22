@@ -3,4 +3,4 @@
 
 - then in App.jsx we can Direct call the 
 # Containers
-- Containers contain bigger components having multiple components
+- Containers contain bigger components having multiple components at the same time, we can think like containers are like the bigger section of the page.
