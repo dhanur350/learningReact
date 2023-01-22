@@ -7,4 +7,10 @@
 
 body{
     background: var(--color-bg);
+    color: white;
+}
+
+a{
+    color: unset;
+    text-decoration: none;
 }
