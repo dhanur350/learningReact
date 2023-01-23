@@ -9,5 +9,10 @@
     flex:1;
     display: flex;
     justify-content: flex-start;
-    
+
 }
+
+.gpt3__navbar-links-logo{
+    margin-right: 2rem;
+}
+
