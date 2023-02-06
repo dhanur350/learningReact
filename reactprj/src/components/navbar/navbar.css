@@ -22,5 +22,6 @@
 }
 
 .gpt3__navbar-links-container{
-    
+    display: flex;
+    flex-direction: row;
 }
