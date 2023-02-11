@@ -22,7 +22,13 @@
 }
 
 .gpt3__navbar-links-container{
-    /* container styling*/
+    /* Container CSS */
     display: flex;
     flex-direction: row;
+}
+
+.gpt3__navbar-sign{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
 }
