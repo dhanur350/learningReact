@@ -5,6 +5,9 @@
 # Containers
 - Containers contain bigger components having multiple components at the same time, we can think like containers are like the bigger section of the page.
 
+# Figma shape
+- Sometimes we don't get that shape which figma shows to us, so we need to shape and size it manually.
+
 ## Some majorly using websites for designing and animation
 
 - [Angry Tools](https://angrytools.com/)

@@ -42,4 +42,17 @@
     font-size: 1rem;
     line-height: 1rem;
     text-transform: capitalize;
+
+    margin: 0 1rem;
+    cursor: pointer;
+}
+
+.gpt3__navbar-sign button,
+.gpt3__navbar-menu_container button{
+    height: 58px;
+    width: 152px;
+    left: 1153px;
+    top: 55px;
+    border-radius: 5px;
+    background: #FF4820;
 }

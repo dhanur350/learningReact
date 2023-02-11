@@ -18,6 +18,10 @@ function Navbar() {
           <p><a href="#blog">Blog</a></p>
         </div>
       </div>
+      <div className="gpt3__navbar-sign">
+        <p>Sign In</p>
+        <button type='button'>Sign up</button>
+      </div>
     </div>
   )
 }
