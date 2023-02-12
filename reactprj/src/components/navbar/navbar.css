@@ -55,6 +55,12 @@
     font-weight: 500;
     left: 1153px;
     top: 55px;
+    font-size: 1rem;
+    line-height: 1.5rem;
     border-radius: 5px;
     background: #FF4820;
+    border: 0;
+    outline: none;
+    cursor: pointer;
 }
+
