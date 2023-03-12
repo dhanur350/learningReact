@@ -1,7 +1,17 @@
-import React, { useState } from 'react'
+import React, { Fragment, useState } from 'react'
 import {RiMenu3Line, RiCloseLine} from "react-icons/ri"
 import logo from "../../assets/logo.svg"
 import "./navbar.css"
+
+function Menu(){
+  <Fragment>
+    <p><a href="#home">Home</a></p>
+          <p><a href="#wgpt3">What is GPT?</a></p>
+          <p><a href="#possibility">Open AI</a></p>
+          <p><a href="#features">Case Studies</a></p>
+          <p><a href="#blog">Library</a></p>
+  </Fragment>
+}
 
 function Navbar() {
 
@@ -25,11 +35,7 @@ function Navbar() {
           <img src={logo} alt="logo" />
         </div>
         <div className="gpt3__navbar-links-container">
-          <p><a href="#home">Home</a></p>
-          <p><a href="#wgpt3">What is GPT?</a></p>
-          <p><a href="#possibility">Open AI</a></p>
-          <p><a href="#features">Case Studies</a></p>
-          <p><a href="#blog">Library</a></p>
+          <Menu/>
         </div>
       </div>
       <div className="gpt3__navbar-sign">
@@ -40,6 +46,13 @@ function Navbar() {
         {toggleMenu 
         ? <RiCloseLine color='#fff' size={27} onClick={riCloseLinefunc}/> :
           <RiMenu3Line color='#fff' size={27} onClick={riMenu3Linefunc}/>}
+          {toggleMenu && (
+            <div className="gpt3__navbar-menu_container scale-up-center">
+              <div className="gpt3__navbar-menu_container-links">
+                <Menu/>
+              </div>
+            </div>
+          )}
       </div>
     </div>
   )
